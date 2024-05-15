@@ -1,16 +1,14 @@
 const Navbar = () =>
 {
-    let listaNavbar = ["AcercadeMi ", "Conocimientos ", "Experiencia ", "Eduacacion ", "Certificacion ", "Contacto"]
+    let listaNavbar = ["Acerca de Mi ", "Conocimientos ", "Experiencia ", "Educacion ", "Certificacion ", "Contacto"]
 
     return(
         
-        <div style={{width: "100%", height: "4vw", backgroundColor: "#e0f8ff"}}>
-            <div style={{}}>
-                <nav style={{display: "flex", flexDirection: "row-reverse"}}> {listaNavbar} </nav>
-            </div>
-             
+        <div style={{ width: "100%", height: "4vw", backgroundColor: "#e0f8ff"}}>
+            <div style={{padding: "1.25vw", paddingRight: "9vw"}}>
+                <nav style={{display: "flex", flexDirection: "row-reverse"}}>   <strong>{listaNavbar}</strong> </nav>
+            </div>     
         </div>
-        
     )
 }
 

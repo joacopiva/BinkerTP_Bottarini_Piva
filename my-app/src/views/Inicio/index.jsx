@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar"
 
-const Inicio = (props) =>
+const Inicio = () =>
 {
     return(
         <>
