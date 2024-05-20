@@ -3,6 +3,7 @@ import './App.css';
 import Inicio from './views/Inicio';
 import Main from "./views/Main";
 import AcercaDeMi from "./views/AcercaDeMi";
+import Conocimientos from "./views/Conocimientos";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Inicio/>
       <Main/>
       <AcercaDeMi/> 
+      <Conocimientos/>
  
     </>
 
