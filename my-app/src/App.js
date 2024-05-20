@@ -4,6 +4,7 @@ import Inicio from './views/Inicio';
 import Main from "./views/Main";
 import AcercaDeMi from "./views/AcercaDeMi";
 import Conocimientos from "./views/Conocimientos";
+import Experiencia from "./views/Experiencia";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Main/>
       <AcercaDeMi/> 
       <Conocimientos/>
+      <Experiencia/>
  
     </>
 
