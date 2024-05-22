@@ -1,6 +1,6 @@
 import TextoRecomendaciones from "../../components/TextoRecomendaciones"
 import Titulo from "../../components/Titulo"
-import comillas from "../../img/comillas.png"
+import comillas from "../../img/comillas.jpg"
 
 const Recomendaciones = () =>
 {

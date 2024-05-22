@@ -7,6 +7,7 @@ import Conocimientos from "./views/Conocimientos";
 import Experiencia from "./views/Experiencia";
 import Recomendaciones from "./views/Recomendaciones";
 import Educacion from "./views/Educacion";
+import Contacto from "./views/Contacto";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Experiencia/>
       <Recomendaciones/>
       <Educacion/>
+      <Contacto/>
  
     </>
 
