@@ -5,6 +5,7 @@ import Main from "./views/Main";
 import AcercaDeMi from "./views/AcercaDeMi";
 import Conocimientos from "./views/Conocimientos";
 import Experiencia from "./views/Experiencia";
+import Recomendaciones from "./views/Recomendaciones";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AcercaDeMi/> 
       <Conocimientos/>
       <Experiencia/>
+      <Recomendaciones/>
  
     </>
 
