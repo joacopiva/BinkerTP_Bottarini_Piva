@@ -1,4 +1,4 @@
-const Card = ({imagen, titulo, texto}) =>
+const Card = ({imagen, titulo, texto, fecha}) =>
 {
     return(
         <div class="flip-card">
@@ -6,8 +6,9 @@ const Card = ({imagen, titulo, texto}) =>
                 <div class="flip-card-front">
                     <img src={imagen} alt="Avatar" style={{width:"300px", height: "300px"}}></img>
                 </div>
-                <div class="flip-card-back">
+                <div class="flip-card-back" style={{padding: "1vw"}}>
                     <h1>{titulo}</h1> 
+                    <p style={{color: "#dddddd", fontSize: "small"}}>{fecha}</p>
                     <p>{texto}</p> 
                 </div>
             </div>
