@@ -1,10 +1,9 @@
-const TextoRecomendaciones = ({texto}) =>
+const TextoRecomendaciones = ({texto, imagen}) =>
 {
     return(
-        <div>
-            <p>
-                {texto}
-            </p>
+        <div style={{width: "20vw", height: "10vw", border: "1px blue"}}> 
+        <img src={imagen} alt="" style={{height: "1vw", width: "1vw"}}/>
+        <p>{texto}</p>
         </div>
     )
 }
