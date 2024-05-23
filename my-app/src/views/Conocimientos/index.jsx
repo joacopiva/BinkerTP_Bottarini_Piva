@@ -12,7 +12,7 @@ let Conocimientos = () =>
     const url4 = "https://ezebinker.github.io/images/services/ui-ux.svg"
     const texto4 = "UX/UI"
     return(
-        <section id="#conocimientos">
+        <section id="conocimientos" style={{paddingTop: "6vw"}}>
             <>
             <Titulo
             texto = {"Conocimientos"}

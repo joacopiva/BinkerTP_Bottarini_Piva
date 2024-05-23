@@ -7,7 +7,7 @@ import card4 from "../../img/card4.png"
 const Experiencia = () =>
 {
     return(
-        <section id="#experiencia"> 
+        <section id="experiencia" style={{paddingTop: "6vw"}}> 
         <Titulo
         texto = {"Experiencia"}
         />

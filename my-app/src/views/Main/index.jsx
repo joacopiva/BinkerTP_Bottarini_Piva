@@ -13,7 +13,7 @@ const Main = () =>
     
 
     return(
-    <section id="#main" style={{display: "flex"}}>
+    <section id="main" style={{display: "flex"}}>
     <>
     <Foto
     url = "https://ezebinker.github.io/images/illustrations/hello3.svg"

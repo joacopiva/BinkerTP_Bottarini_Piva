@@ -5,7 +5,7 @@ import comillas from "../../img/comillas.jpg"
 const Recomendaciones = () =>
 {
     return(
-        <section>
+        <section id="recomendaciones" style={{paddingTop: "6vw"}}>
             <>
             <Titulo
             texto = "Recomendaciones"

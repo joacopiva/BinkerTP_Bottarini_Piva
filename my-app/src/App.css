@@ -162,7 +162,8 @@ input[type=submit]:hover {
   overflow: hidden;
   display: flex;
   flex-direction: row-reverse;
-
+  position: fixed;
+  width: 100%;
 }
 
 .topnav a {
@@ -176,7 +177,7 @@ input[type=submit]:hover {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #a1a1a1;
   color: black;
 }
 

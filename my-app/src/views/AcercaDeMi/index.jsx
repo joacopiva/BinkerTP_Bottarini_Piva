@@ -4,7 +4,7 @@ const AcercaDeMi = () =>
     
     
     return(
-        <section id="#acercademi" style={{display: "flex"}}>
+        <section id="acercademi" style={{display: "flex", scrollBehavior: "smooth", paddingTop: "8vw"}}>
         <div style={{flexDirection: "column", width: "30vw", paddingLeft: "14vw"}}> 
         <h1><strong>Hola! Me llamo Angeles Peña.</strong></h1>
             <p>

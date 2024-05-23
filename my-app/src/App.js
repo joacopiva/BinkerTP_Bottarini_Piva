@@ -8,6 +8,7 @@ import Experiencia from "./views/Experiencia";
 import Recomendaciones from "./views/Recomendaciones";
 import Educacion from "./views/Educacion";
 import Contacto from "./views/Contacto";
+import Footer from "./views/Footer";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Recomendaciones/>
       <Educacion/>
       <Contacto/>
+      <Footer/>
  
     </>
 

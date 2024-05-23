@@ -4,7 +4,7 @@ import Card from "../../components/Card"
 const Educacion = () =>
 {
     return(
-    <section id="#educacion">
+    <section id="educacion" style={{paddingTop: "2vw"}}>
     <Titulo
     texto = {"Educación"}
     />
